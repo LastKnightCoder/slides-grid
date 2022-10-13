@@ -1,0 +1,17 @@
+{
+  "name": "slides-grid",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /slides-grid/",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.36.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "@iconify-json/wi": "^1.1.1"
+  }
+}
